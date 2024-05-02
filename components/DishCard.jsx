@@ -42,6 +42,7 @@ const DishCard = ({item}) => {
                 item:item,
                 qty:qty,
             }))
+            
             toast.success(`Cart updated successfully`)
             // hanldeOpenPlus()
         }
