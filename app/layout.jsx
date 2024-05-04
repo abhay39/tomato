@@ -3,6 +3,7 @@ import "./globals.css";
 import LandingNavbar from "@/components/LandingNavbar";
 import { Toaster } from "react-hot-toast";
 import MainPage from "@/pages/MainPage";
+import Footer from "@/components/Footer";
 
 const inter = Poppins({ subsets: ["latin"],weight:['200','300','400','500','600','700','800','900'] });
 
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
             <LandingNavbar />
           </div>
           {children}
+          <Footer />
       </MainPage>
       </body>
     </html>

@@ -44,7 +44,6 @@ const DishCard = ({item}) => {
             }))
             
             toast.success(`Cart updated successfully`)
-            // hanldeOpenPlus()
         }
     }
 
